@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="container">
-        <!-- HEADER (Simplified) -->
+        <!-- HEADER -->
         <header class="site-header">
             <div class="top-nav-bar">
                 <div class="nav-group-left">
@@ -20,18 +20,17 @@
                 </div>
                 <h1 class="site-title">
                     <a class="site-title-link" href="index.html"> 
-                      <span class="title-part">ДЫХАНИЕ</span><span class="title-separator"> • </span>
-                      <span class="title-part">УМ</span>
+                      <span class="title-part">ПРАКТИКА</span>
                     </a>
                 </h1>
                 <div class="nav-group-right">
-                    <a href="practice.html" class="nav-button current-page" style="border-color: #E67E22; color: #E67E22;">ПРАКТИКА</a>
+                    <a href="practice.html" class="nav-button current-page" style="background-color: #E67E22; color: #fff; border: 2px solid #E67E22;">ВЫБОР</a>
                 </div>
             </div>
         </header>
 
         <main class="pranayama-content">
-            <!-- GAME / MOOD SELECTOR (Moved here from Index Header) -->
+            <!-- GAME / MOOD SELECTOR -->
             <h2 id="tags-section" class="tags-prompt-headline">КАКОГО СОСТОЯНИЯ ВЫ ХОТИТЕ ДОСТИЧЬ СЕГОДНЯ ?</h2>
             <div class="tags-navigation">
                 <div class="tag-prompt"> кликай тег и выбирай простую 5-минутную практику 👇</div> 
@@ -56,19 +55,135 @@
             </div>
 
             <h2>Выбери карточку ❤️</h2>
+            
             <!-- GRID WITH CARDS -->
             <div class="pranayama-grid" id="pranayamaGrid">
-                <!-- Вставь сюда весь код карточек (<a href... class="pranayama-block">...</a>) из твоего старого index.html -->
-                <!-- Я не буду дублировать их все здесь, чтобы не забивать ответ, просто скопируй блоки от <!-- Удджайя --> до <!-- Ситали -->
-                <!-- НАЧАЛО ВСТАВКИ -->
-                  <!-- Сюда вставь карточки -->
-                  <p style="text-align:center; width: 100%;">⚠️ Скопируйте сюда блоки карточек из старого файла (Удджайя, Капалабхати и т.д.)</p>
-                <!-- КОНЕЦ ВСТАВКИ -->
-            </div>
+
+                <!-- Удджайя (technique_uddjaya.html) -->
+                <a href="technique_uddjaya.html" target="_blank" class="pranayama-block" data-tags="Проявить_Голос Эмоционально_Стабилизироваться Сконцентрироваться Ощутить_Полноту_Дыхания Успокоить_Ум">
+                    <div class="pranayama-top-info">
+                        <span class="pranayama-class-label label-basic">БАЗОВЫЕ</span>
+                        <div class="level-indicator"><span class="level-icon">🌿</span></div>
+                    </div>
+                    <h3>Удджайя</h3>
+                    <div class="pranayama-duration"><span class="duration-icon">🕒</span><span class="duration-text">3-10 мин</span></div>
+                </a>
+
+                <!-- Полное Йоговское (technique_vibhagia.html) -->
+                <a href="technique_vibhagia.html" target="_blank" class="pranayama-block" data-tags="Крепко_спать Гармонизироваться Проявить_Голос Снять_Стресс Эмоционально_Стабилизироваться Ощутить_Полноту_Дыхания Успокоить_Ум">
+                    <div class="pranayama-top-info">
+                        <span class="pranayama-class-label label-basic">БАЗОВЫЕ</span>
+                        <div class="level-indicator"><span class="level-icon">🌿</span></div>
+                    </div>
+                    <h3>Полное Йоговское</h3>
+                    <div class="pranayama-duration"><span class="duration-icon">🕒</span><span class="duration-text">3-10 мин</span></div>
+                </a>
+
+                <!-- Сурья Бхедана (technique_suria.html) -->
+                <a href="technique_suria.html" target="_blank" class="pranayama-block" data-tags="Укрепить_Уверенность Зарядиться_Энергией Поднять_Продуктивность Прояснить_Ум">
+                    <div class="pranayama-top-info">
+                        <span class="pranayama-class-label label-activating">АКТИВИЗИРУЮЩИЕ</span>
+                        <div class="level-indicator"><span class="level-icon">🌿</span></div>
+                    </div>
+                    <h3>Сурья Бхедана</h3>
+                    <div class="pranayama-duration"><span class="duration-icon">🕒</span><span class="duration-text">3-10 мин</span></div>
+                </a>
+
+                <!-- Чандра Бхедана (technique_chandra.html) -->
+                <a href="technique_chandra.html" target="_blank" class="pranayama-block" data-tags="Крепко_Спать Охладиться Глубоко_Расслабиться Снять_Стресс Прояснить_Ум">
+                    <div class="pranayama-top-info">
+                        <span class="pranayama-class-label label-calming">УСПОКАИВАЮЩИЕ</span>
+                        <div class="level-indicator"><span class="level-icon">🌿</span></div>
+                    </div>
+                    <h3>Чандра Бхедана</h3>
+                    <div class="pranayama-duration"><span class="duration-icon">🕒</span><span class="duration-text">3-10 мин</span></div>
+                </a>
+
+                <!-- Капалабхати (technique_kapalabhati.html) -->
+                <a href="technique_kapalabhati.html" target="_blank" class="pranayama-block" data-tags="Прояснить_Ум Зарядиться_Энергией Поднять_Продуктивность">
+                    <div class="pranayama-top-info">
+                        <span class="pranayama-class-label label-activating">АКТИВИЗИРУЮЩИЕ</span>
+                        <div class="level-indicator"><span class="level-icon">🪴</span></div>
+                    </div>
+                    <h3>Капалабхати</h3>
+                    <div class="pranayama-duration"><span class="duration-icon">🕒</span><span class="duration-text">2-5 мин</span></div>
+                </a>
+
+                <!-- Бхастрика (technique_bhastrika.html) -->
+                <a href="technique_bhastrika.html" target="_blank" class="pranayama-block" data-tags="Укрепить_Уверенность Зарядиться_Энергией Поднять_Продуктивность">
+                    <div class="pranayama-top-info">
+                        <span class="pranayama-class-label label-activating">АКТИВИЗИРУЮЩИЕ</span>
+                        <div class="level-indicator"><span class="level-icon">🌳</span></div>
+                    </div>
+                    <h3>Бхастрика</h3>
+                    <div class="pranayama-duration"><span class="duration-icon">🕒</span><span class="duration-text">2-5 мин</span></div>
+                </a>
+
+                <!-- Брамари (technique_bramari.html) -->
+                <a href="technique_bramari.html" target="_blank" class="pranayama-block" data-tags="Крепко_Спать Глубоко_Расслабиться Снять_Стресс Прояснить_Ум Успокоить_Ум">
+                    <div class="pranayama-top-info">
+                        <span class="pranayama-class-label label-calming">УСПОКАИВАЮЩИЕ</span>
+                        <div class="level-indicator"><span class="level-icon">🌿</span></div>
+                    </div>
+                    <h3>Брамари</h3>
+                    <div class="pranayama-duration"><span class="duration-icon">🕒</span><span class="duration-text">3-7 мин</span></div>
+                </a>
+
+                <!-- Сама Вритти (ВНИМАНИЕ: techique_samavr.html - опечатка в имени файла, но ссылка верная) -->
+                <a href="techique_samavr.html" target="_blank" class="pranayama-block" data-tags="Глубоко_Расслабиться Уравновеситься Эмоционально_Стабилизироваться Сконцентрироваться Успокоить_Ум">
+                    <div class="pranayama-top-info">
+                        <span class="pranayama-class-label label-balancing">БАЛАНСИРУЮЩИЕ</span>
+                        <div class="level-indicator"><span class="level-icon">🌿</span></div>
+                    </div>
+                    <h3>Сама Вритти</h3>
+                    <div class="pranayama-duration"><span class="duration-icon">🕒</span><span class="duration-text">5-10 мин</span></div>
+                </a>
+
+                <!-- Вишама Вритти (technique_vishamavr.html) -->
+                <a href="technique_vishamavr.html" target="_blank" class="pranayama-block" data-tags="Глубоко_Расслабиться Снять_Стресс Зарядиться_Энергией Настроить_Себя Успокоить_Ум Сконцентрироваться">
+                    <div class="pranayama-top-info">
+                        <span class="pranayama-class-label label-balancing">БАЛАНСИРУЮЩИЕ</span>
+                        <div class="level-indicator"><span class="level-icon">🪴</span></div>
+                    </div>
+                    <h3>Вишама Вритти</h3>
+                    <div class="pranayama-duration"><span class="duration-icon">🕒</span><span class="duration-text">10-20 мин</span></div>
+                </a>
+
+                <!-- Нади Шодхана (technique_nadish.html) -->
+                <a href="technique_nadish.html" target="_blank" class="pranayama-block" data-tags="Глубоко_Расслабиться Снять_Стресс Уравновеситься Прояснить_Ум">
+                     <div class="pranayama-top-info">
+                        <span class="pranayama-class-label label-balancing">БАЛАНСИРУЮЩИЕ</span>
+                        <div class="level-indicator"><span class="level-icon">🌿</span></div>
+                    </div>
+                    <h3>Нади Шодхана</h3>
+                    <div class="pranayama-duration"><span class="duration-icon">🕒</span><span class="duration-text">5-20 мин</span></div>
+                </a>
+
+                <!-- Ситкари (technique_sitkari.html) -->
+                <a href="technique_sitkari.html" target="_blank" class="pranayama-block" data-tags="Освежиться Проявить_Голос">
+                    <div class="pranayama-top-info">
+                        <span class="pranayama-class-label label-calming">ОХЛАЖДАЮЩИЕ</span>
+                        <div class="level-indicator"><span class="level-icon">🌿</span></div>
+                    </div>
+                    <h3>Ситкари</h3>
+                    <div class="pranayama-duration"><span class="duration-icon">🕒</span><span class="duration-text">3-10 мин</span></div>
+                </a>
+
+                <!-- Ситали (technique_sitali.html) -->
+                <a href="technique_sitali.html" target="_blank" class="pranayama-block" data-tags="Освежиться Проявить_Голос">
+                    <div class="pranayama-top-info">
+                        <span class="pranayama-class-label label-calming">ОХЛАЖДАЮЩИЕ</span>
+                        <div class="level-indicator"><span class="level-icon">🌿</span></div>
+                    </div>
+                    <h3>Ситали</h3>
+                    <div class="pranayama-duration"><span class="duration-icon">🕒</span><span class="duration-text">3-10 мин</span></div>
+                </a>
+
+            </div> <!-- Конец Grid -->
         </main>
 
         <footer>
-             <p style="text-align: center; margin-top: 40px;">© Мама Пранаяма, 2025</p>
+             <p style="text-align: center; margin-top: 40px; color: #777;">© Мама Пранаяма, 2025</p>
         </footer>
     </div>
     <script src="script.js"></script>
